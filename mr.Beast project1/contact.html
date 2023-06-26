@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">
+                    <img src="./images/logo2.png" alt="" />
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./course.html">Course</a></li>
+                        <li><a href="./burger.html">Burger</a></li>
+                        <li><a href="#">Contract</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>Contact</h1>
+        </section>
+
+        <main>
+            <section class="location">
+                <iframe
+                    src="https://yandex.ru/maps/?um=constructor%3A5cf5941cf805d88a963ab30f65e98fbdf0845d3afa8fb195838050fdfb71de42&source=constructorLink"
+                    frameborder="0"
+                    width="500"
+                    height="400"
+                ></iframe>
+            </section>
+
+            <section class="contuct-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa fa-home"></i>
+                            <span>
+                                <h5>XXXXX Road , XXXXXXXX Buiding</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <h5>+334776545678923456</h5>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <h5>fghgfxvbhtfdxcvbj.com</h5>
+                            <p>24/7</p>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <form>
+                            <input type="text" placeholder="Enter name" />
+                            <input type="text" placeholder="Enter email" />
+                            <textarea
+                                rows="5"
+                                placeholder="Your Comment"
+                            ></textarea>
+                            <button type="button" class="btn red-btn">
+                                Post Comment
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h4>About us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, ullam fugiat mollitia fugit numquam, expedita
+                obcaecati magni, tempora vitae aspernatur officia veritatis!
+                Vel, ex fuga!
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Ma./de with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

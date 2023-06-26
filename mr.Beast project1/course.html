@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <section class="sub-header">
+                <nav>
+                    <a href="index.html">
+                        <img src="./images/logo2.png" alt="" />
+                    </a>
+    
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="#">Course</a></li>
+                            <li><a href="./burger.html">Burger</a></li>
+                            <li><a href="./contact.html">Contract</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+
+            <h1>Course</h1>
+        </section>
+
+        <main>
+            <section class="course">
+                <h1>Lorem, ipsum dolor.</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Recusandae, ullam! Saepe aut voluptatibus possimus nemo
+                    recusandae eligendi repellat obcaecati sapiente!
+                </p>
+
+                <div class="row">
+                    <div class="course-col">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Repellendus quasi tempore, eos quos rerum
+                            corrupti, ipsum totam officia accusamus rem amet,
+                            aperiam velit distinctio obcaecati!
+                        </p>
+                    </div>
+
+                    <div class="course-col">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Repellendus quasi tempore, eos quos rerum
+                            corrupti, ipsum totam officia accusamus rem amet,
+                            aperiam velit distinctio obcaecati!
+                        </p>
+                    </div>
+
+                    <div class="course-col">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Repellendus quasi tempore, eos quos rerum
+                            corrupti, ipsum totam officia accusamus rem amet,
+                            aperiam velit distinctio obcaecati!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="facilities">
+                <h1>Other channels</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maiores itaque officia, quam atque natus et consectetur est
+                    quod, ducimus iste doloribus enim debitis distinctio. Sit.
+                </p>
+
+                <div class="row">
+                    <div class="facilties-col">
+                        <img src="./images/MrBeast_Gaming_2020.webp" alt="" />
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Ipsam repellat exercitationem tenetur
+                            temporibus incidunt hic at amet. Incidunt,
+                            perspiciatis aperiam!
+                        </p>
+                    </div>
+
+                    <div class="facilties-col">
+                        <img src="./images/Beast_Reacts_2021.webp" alt="" />
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Ipsam repellat exercitationem tenetur
+                            temporibus incidunt hic at amet. Incidunt,
+                            perspiciatis aperiam!
+                        </p>
+                    </div>
+
+                    <div class="facilties-col">
+                        <img
+                            src="./images/Beast_Philanthropy_Channel_Icon.webp"
+                            alt=""
+                        />
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Ipsam repellat exercitationem tenetur
+                            temporibus incidunt hic at amet. Incidunt,
+                            perspiciatis aperiam!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h4>About us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, ullam fugiat mollitia fugit numquam, expedita
+                obcaecati magni, tempora vitae aspernatur officia veritatis!
+                Vel, ex fuga!
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Ma./de with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

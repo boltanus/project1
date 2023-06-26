@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">
+                    <img src="./images/logo2.png" alt="" />
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="./course.html">Course</a></li>
+                        <li><a href="./burger.html">Burger</a></li>
+                        <li><a href="./contact.html">Contract</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>About Us</h1>
+        </section>
+
+        <main>
+            <section class="about-us">
+                <div class="row">
+                    <div class="about-col">
+                        <h1>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </h1>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. At facere dolores temporibus nesciunt
+                            praesentium accusantium consectetur, voluptas animi
+                            est officia sint amet sequi delectus quae! Incidunt
+                            doloribus, velit sequi rem repellat quam ipsam nam
+                            minima consequatur molestiae molestias cum laborum
+                            iure voluptatum, eveniet quidem porro ut
+                            consequuntur ad delectus Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et minus totam. Illo nobis aliquam optio distinctio itaque cumque dolor alias eos magnam dolorem! Distinctio odio sapiente deserunt? Ut illo perspiciatis fugit quis eos quae quo quisquam similique et aliquam.</quis>
+                        </p>
+                        <a href="#" class="btn red-btn">EXPLORE NOW</a>
+                    </div>
+
+                    <div class="about-col">
+                        <img src="./images/about.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h4>About us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, ullam fugiat mollitia fugit numquam, expedita
+                obcaecati magni, tempora vitae aspernatur officia veritatis!
+                Vel, ex fuga!
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Ma./de with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
